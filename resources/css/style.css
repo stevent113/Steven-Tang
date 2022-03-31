@@ -3,6 +3,10 @@
 
 /* -------------------- GLOBAL DEFAULTS */
 
+
+img {
+    max-width: 100%;
+}
 /* -------------------- HEADINGS AND TYPE */
 
 /* -------------------- LAYOUTS */
