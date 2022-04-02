@@ -4,10 +4,11 @@
 /* -------------------- GLOBAL DEFAULTS */
 
 
-img {
-    max-width: 100%;
-}
+
 /* -------------------- HEADINGS AND TYPE */
+@import url(normalize.css);
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap')
+/* Tried adding in a custom font but im not sure if it worked or not */
 
 /* -------------------- LAYOUTS */
 .layout-wide{
