@@ -16,10 +16,33 @@
      max-width: 1000px;
      margin-left: auto;
      margin-right: auto;
-
-     
-
 }
+
+/* i tried to follow a Youtube tutorial for a grid gallery but it didnt work :(  i tried fixing it but couldnt do it either*/
+
+body{
+  margin: 0%;
+}
+
+.image-grid{
+--gap: 16px;
+--num-cols: 3:
+--row-height: 300px:
+}
+
+box-sizing: border-box;
+padding:var()
+
+display grid:
+grid-template-columns: repeat(var (--num cols:), 1fr)
+grid-auto-rows:
+gap: var(--gap)
+}
+
+.image-grid > img
+width: 100%
+height: 100%
+object-fit cover: 
 
 /* -------------------- HEADER */
 
