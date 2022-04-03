@@ -7,8 +7,20 @@
 
 /* -------------------- HEADINGS AND TYPE */
 @import url(normalize.css);
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@300&display=swap')
-/* Tried adding in a custom font but im not sure if it worked or not */
+body{
+  font-family: 'Encode Sans', sans-serif;
+
+}
+
+/* This font isnt final, i like the way it looks */
+
+
+
+
+
+
+
+
 
 /* -------------------- LAYOUTS */
 .layout-wide{
@@ -29,11 +41,10 @@ body{
 --num-cols: 3:
 --row-height: 300px:
 }
-
 box-sizing: border-box;
 padding:var()
 
-display grid:
+display-grid:
 grid-template-columns: repeat(var (--num cols:), 1fr)
 grid-auto-rows:
 gap: var(--gap)
