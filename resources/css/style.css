@@ -36,7 +36,7 @@ layout-wide {
 
 
 
-/* i tried to follow a Youtube tutorial for a grid gallery but it didnt work :(  i tried fixing it but couldnt do it either*/
+/*Photo grid*/
 
 body {
   margin: 20%;
@@ -58,7 +58,7 @@ body {
 
 
 
-.image-grid>img {
+.image-grid img {
 
   width: 100%;
   height: 100%;
@@ -67,7 +67,9 @@ body {
 
 
 /* -------------------- HEADER */
-
+img{
+  vertical-align: middle;
+}
 /* -------------------- NAVIGATION */
 /* navigation bar colour */
 
@@ -122,7 +124,9 @@ body {
 }
 
 /* -------------------- FOOTER */
-
+footer{
+  text-align: center;
+}
 /* -------------------- MODULES */
 
 body {
