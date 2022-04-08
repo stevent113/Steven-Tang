@@ -13,8 +13,8 @@ img {
 body {
   font-family: 'Encode Sans', sans-serif;
   box-sizing: border-box;
+  }
 
-}
 
 /* This font isnt final, i like the way it looks */
 
@@ -78,7 +78,6 @@ img{
   background-color: whitesmoke;
 
   overflow: hidden;
-
 }
 
 
@@ -89,7 +88,7 @@ img{
 
   float: left;
 
-  color: gray;
+  color: rgb(24, 48, 185);
 
   text-align: center;
 
@@ -109,7 +108,7 @@ img{
 
 .topnav a:hover {
 
-  color: black;
+  color:grey;
 
 }
 
@@ -119,7 +118,7 @@ img{
 
 .topnav a.active {
 
-  color: black;
+  color: purple;
 
 }
 
@@ -127,6 +126,8 @@ img{
 footer{
   text-align: center;
 }
+
+
 /* -------------------- MODULES */
 
 body {
