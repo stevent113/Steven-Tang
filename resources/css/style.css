@@ -1,6 +1,7 @@
 /* -------------------- VARIABLES */
 
 
+
 /* -------------------- GLOBAL DEFAULTS */
 img {
   max-width: 100%
@@ -14,6 +15,10 @@ body {
   font-family: 'Encode Sans', sans-serif;
   box-sizing: border-box;
   }
+
+
+
+  
 
 
 /* This font isnt final, i like the way it looks */
@@ -74,12 +79,18 @@ img{
 /* navigation bar colour */
 
 .topnav {
+  position: sticky; 
+  top: 0;
+ justify-content: space-evenly;
+    display: flex;
+     background-color: whitesmoke;
+    overflow: hidden;
 
-  background-color: whitesmoke;
+    }
 
-  overflow: hidden;
-}
-
+  
+    
+  
 
 
 /* link customisaitons */
@@ -126,6 +137,7 @@ img{
 footer{
   text-align: center;
 }
+
 
 
 /* -------------------- MODULES */
