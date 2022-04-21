@@ -1,7 +1,6 @@
 /* -------------------- VARIABLES */
 
 
-
 /* -------------------- GLOBAL DEFAULTS */
 img {
   max-width: 100%
@@ -11,15 +10,11 @@ img {
 /* -------------------- HEADINGS AND TYPE */
 @import url(normalize.css);
 
+
 body {
   font-family: 'Encode Sans', sans-serif;
   box-sizing: border-box;
   }
-
-
-
-  
-
 
 /* This font isnt final, i like the way it looks */
 
@@ -44,7 +39,8 @@ layout-wide {
 /*Photo grid*/
 
 body {
-  margin: 20%;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .image-grid {
@@ -75,15 +71,22 @@ body {
 img{
   vertical-align: middle;
 }
+
+.header-wrapper {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
 /* -------------------- NAVIGATION */
 /* navigation bar colour */
 
 .topnav {
   position: sticky; 
   top: 0;
- justify-content: space-evenly;
-    display: flex;
-     background-color: whitesmoke;
+ /* justify-content: space-evenly;
+    display: flex; */
+     background-color: #848884;
     overflow: hidden;
 
     }
@@ -97,7 +100,7 @@ img{
 
 .topnav a {
 
-  float: left;
+  
 
   color: rgb(24, 48, 185);
 
@@ -107,13 +110,19 @@ img{
 
   text-decoration: none;
 
-  font-size: 17px;
+  font-size: 8
+px;
 
   font-family: Arial, Helvetica, sans-serif;
 
 }
 
+@media screen and (min-width:800px) {
 
+  .topnav a {
+    font-size: 17px;
+  }
+}
 
 /* Changing color of links on hover */
 
@@ -143,5 +152,5 @@ footer{
 /* -------------------- MODULES */
 
 body {
-  background-color: #1A2238;
+  background-color: #a0aecd;
 }
