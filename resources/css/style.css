@@ -6,17 +6,15 @@ img {
   max-width: 100%
 }
 
-
 /* -------------------- HEADINGS AND TYPE */
 @import url(normalize.css);
-
 
 body {
   font-family: 'Encode Sans', sans-serif;
   box-sizing: border-box;
   }
 
-/* This font isnt final, i like the way it looks */
+
 
 
 
@@ -28,7 +26,7 @@ body {
 
 /* -------------------- LAYOUTS */
 layout-wide {
-  background-color: #FFFFFF;
+  background-color: #feffff;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -39,8 +37,8 @@ layout-wide {
 /*Photo grid*/
 
 body {
-  margin-left: 3%;
-  margin-right: 3%;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 .image-grid {
@@ -86,9 +84,9 @@ img{
   top: 0;
  /* justify-content: space-evenly;
     display: flex; */
-     background-color: #848884;
+     background-color: #def2f1;
     overflow: hidden;
-
+  
     }
 
   
@@ -99,28 +97,23 @@ img{
 /* link customisaitons */
 
 .topnav a {
-
-  
-
   color: rgb(24, 48, 185);
 
   text-align: center;
 
-  padding: 16px 16px;
+  padding: 20px 20px;
 
   text-decoration: none;
 
-  font-size: 8
-px;
+  font-size: 20px
 
-  font-family: Arial, Helvetica, sans-serif;
-
+  font-family Arial, Helvetica, sans-serif;
 }
 
 @media screen and (min-width:800px) {
 
   .topnav a {
-    font-size: 17px;
+    font-size: 15px;
   }
 }
 
@@ -152,5 +145,5 @@ footer{
 /* -------------------- MODULES */
 
 body {
-  background-color: #a0aecd;
+  background-color: white;
 }
